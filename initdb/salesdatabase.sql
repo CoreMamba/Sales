@@ -26,6 +26,7 @@ CREATE TABLE `weekly_sales_sheet` (
   `Weeks [W]` varchar(50) DEFAULT NULL,
   `Start date [SD]` date DEFAULT NULL,
   `End date [ED]` date DEFAULT NULL,
+  `Days [Dy]` varchar(20) DEFAULT NULL,
   `No. of Days [NODy]` int DEFAULT NULL,
   `Total days shop opened per week [TDSOPW]` int DEFAULT NULL,
   `Total days shop closed per week [TDSCPW]` int DEFAULT NULL
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-11 17:27:07
+-- Dump completed on 2025-07-11 17:59:20
