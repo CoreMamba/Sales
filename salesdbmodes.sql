@@ -13,9 +13,11 @@ CREATE TABLE weekly_sales_sheet (
 ); */
 
 
--- add primary key to the table
+/* -- add primary key to the table
 ALTER TABLE weekly_sales_sheet
-ADD PRIMARY KEY (`Weeks [W]`);
+ADD PRIMARY KEY (`Weeks [W]`); */
+
+
 
 
 
