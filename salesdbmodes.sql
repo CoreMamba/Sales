@@ -19,3 +19,9 @@ ADD PRIMARY KEY (`Weeks [W]`); */
 
 
 -- DESCRIBE weekly_sales_sheet;
+
+
+-- CREATE DATABASE IF NOT EXISTS customersdb;
+
+
+-- SHOW databases;
