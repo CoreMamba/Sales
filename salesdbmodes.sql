@@ -33,10 +33,9 @@ ADD PRIMARY KEY (`Weeks [W]`); */
 -- FROM salesdatabase.weekly_sales_sheet;
 
 
-/* USE salesdatabase;
+USE salesdatabase;
 ALTER TABLE weekly_sales_sheet
 ADD COLUMN `Days [Dy]` VARCHAR(20) AFTER `End date [ED]`;     
-*/
 
 
 
