@@ -12,12 +12,10 @@ CREATE TABLE weekly_sales_sheet (
   `Total days shop closed per week [TDSCPW]` INT
 ); */
 
- -- add primary key to the table
+
+/* -- add primary key to the table
 ALTER TABLE weekly_sales_sheet
-ADD PRIMARY KEY (`Weeks [W]`);
+ADD PRIMARY KEY (`Weeks [W]`); */
 
 
-
-
-
-
+-- DESCRIBE weekly_sales_sheet;
