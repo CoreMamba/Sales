@@ -1,0 +1,18 @@
+[1mdiff --git a/initdb/salesdatabase.sql b/initdb/salesdatabase.sql[m
+[1mindex ede31db..ca97da5 100644[m
+[1m--- a/initdb/salesdatabase.sql[m
+[1m+++ b/initdb/salesdatabase.sql[m
+[36m@@ -26,7 +26,6 @@[m [mCREATE TABLE `weekly_sales_sheet` ([m
+   `Weeks [W]` varchar(50) DEFAULT NULL,[m
+   `Start date [SD]` date DEFAULT NULL,[m
+   `End date [ED]` date DEFAULT NULL,[m
+[31m-  `Days [Dy]` varchar(20) DEFAULT NULL,[m
+   `No. of Days [NODy]` int DEFAULT NULL,[m
+   `Total days shop opened per week [TDSOPW]` int DEFAULT NULL,[m
+   `Total days shop closed per week [TDSCPW]` int DEFAULT NULL[m
+[36m@@ -51,4 +50,4 @@[m [mUNLOCK TABLES;[m
+ /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;[m
+ /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;[m
+ [m
+[31m--- Dump completed on 2025-07-11 17:01:35[m
+[32m+[m[32m-- Dump completed on 2025-07-11 17:25:55[m
