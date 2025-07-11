@@ -23,5 +23,22 @@ ADD PRIMARY KEY (`Weeks [W]`); */
 
 -- CREATE DATABASE IF NOT EXISTS customersdb;
 
-
 -- SHOW databases;
+
+
+-- DROP DATABASE IF EXISTS salesdatabase;
+
+
+-- SELECT * 
+-- FROM salesdatabase.weekly_sales_sheet;
+
+
+/* USE salesdatabase;
+ALTER TABLE weekly_sales_sheet
+ADD COLUMN `Days [Dy]` VARCHAR(20) AFTER `End date [ED]`;     
+*/
+
+
+
+
+
