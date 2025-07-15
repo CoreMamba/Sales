@@ -33,11 +33,11 @@ ADD PRIMARY KEY (`Weeks [W]`); */
 -- FROM salesdatabase.weekly_sales_sheet;
 
 
-USE salesdatabase;
-ALTER TABLE weekly_sales_sheet
-ADD COLUMN `Days [Dy]` VARCHAR(20) AFTER `End date [ED]`;     
+-- USE salesdatabase;
+-- ALTER TABLE weekly_sales_sheet
+-- ADD COLUMN `Days [Dy]` VARCHAR(20) AFTER `End date [ED]`;     
 
+-- SELECT * FROM itemsdb.items;
 
-
-
-
+ALTER TABLE itemsdb.items
+ADD COLUMN `Item life span` VARCHAR(255) AFTER `ItemDescription`;
