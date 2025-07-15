@@ -29,6 +29,7 @@ CREATE TABLE `items` (
   `Price` decimal(10,2) DEFAULT NULL,
   `Stock` int DEFAULT NULL,
   `ItemDescription` varchar(255) DEFAULT NULL,
+  `Item life span` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ItemID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -39,7 +40,7 @@ CREATE TABLE `items` (
 
 LOCK TABLES `items` WRITE;
 /*!40000 ALTER TABLE `items` DISABLE KEYS */;
-INSERT INTO `items` VALUES (1,'Notebook','Stationery',45.00,100,NULL),(2,'Pen','Stationery',10.00,250,NULL),(3,'Keyboard','Electronics',999.99,20,NULL),(4,'Mouse','Electronics',499.50,30,NULL),(5,'Water Bottle','Home',150.00,80,NULL);
+INSERT INTO `items` VALUES (1,'Notebook','Stationery',45.00,100,NULL,NULL),(2,'Pen','Stationery',10.00,250,NULL,NULL),(3,'Keyboard','Electronics',999.99,20,NULL,NULL),(4,'Mouse','Electronics',499.50,30,NULL,NULL),(5,'Water Bottle','Home',150.00,80,NULL,NULL);
 /*!40000 ALTER TABLE `items` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-14 18:28:55
+-- Dump completed on 2025-07-15 11:04:48
