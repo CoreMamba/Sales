@@ -41,3 +41,5 @@ ADD PRIMARY KEY (`Weeks [W]`); */
 
 -- ALTER TABLE itemsdb.items
 -- ADD COLUMN `Item life span` VARCHAR(255) AFTER `ItemDescription`;
+
+DESCRIBE itemsdb.items;
